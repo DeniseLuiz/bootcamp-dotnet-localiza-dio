@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "primeiros-passos/1.0.0": {
+        "runtime": {
+          "primeiros-passos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "primeiros-passos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
