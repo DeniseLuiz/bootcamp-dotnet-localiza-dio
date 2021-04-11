@@ -1,11 +1,10 @@
 using System;
 
-namespace primeiros_passos
+namespace EstruturaDoPrograma.Exemplos
 {
     public class Pilha
     {
         Posicao primeiro;
-
         public void Empilha(object item) 
         {
             primeiro = new Posicao(primeiro, item);
@@ -27,7 +26,6 @@ namespace primeiros_passos
         {
             public Posicao proximo;
             public object item;
-            
             public Posicao(Posicao proximo, object item)
             {
                 this.proximo = proximo;

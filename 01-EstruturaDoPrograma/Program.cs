@@ -1,18 +1,12 @@
 ﻿using System;
+using EstruturaDoPrograma.Exemplos;
 
-namespace primeiros_passos
+namespace EstruturaDoPrograma
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // int numeroDevezes = 5;
-            
-            // for(int i=0; i< numeroDevezes; i++)
-            // {
-            //     Console.WriteLine($"Bem vindo ao curso de .NET {i}");
-            // }
-            
             var s = new Pilha();
             s.Empilha(1);
             s.Empilha(10);
@@ -21,5 +15,5 @@ namespace primeiros_passos
             Console.WriteLine(s.Desempilha());
             Console.WriteLine(s.Desempilha());
         }
-    }    
+    }
 }
