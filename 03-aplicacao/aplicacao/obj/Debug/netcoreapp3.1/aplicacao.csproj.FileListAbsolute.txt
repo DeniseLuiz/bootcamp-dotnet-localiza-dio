@@ -1,0 +1,13 @@
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.exe
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.deps.json
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.runtimeconfig.json
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.runtimeconfig.dev.json
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.dll
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\bin\Debug\netcoreapp3.1\aplicacao.pdb
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.dll
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.pdb
+C:\Users\Denise\Documents\GitHub\1-localiza\03-aplicacao\aplicacao\obj\Debug\netcoreapp3.1\aplicacao.genruntimeconfig.cache
