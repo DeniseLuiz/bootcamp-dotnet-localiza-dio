@@ -1,0 +1,13 @@
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.exe
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.deps.json
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.json
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.dev.json
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\Denise\Documents\GitHub\1-localiza\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.genruntimeconfig.cache
