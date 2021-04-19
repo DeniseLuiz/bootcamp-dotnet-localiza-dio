@@ -46,10 +46,10 @@
 
 - [x] Application Development
 
-<p>> O programa recebe 5 variaveis do tipo string, e 5 variaveis do tipo decimal. O programa exibe um meno que permite selecionar as seguintes opções:</p>
-<p>> 1- Inserir novo aluno;</p>
-<p>> 2- Listar alunos;</p>
-<p>> 3- Calcular média geral.</p>
+> O programa recebe 5 variaveis do tipo string, e 5 variaveis do tipo decimal. O programa exibe um meno que permite selecionar as seguintes opções:<br>
+> 1- Inserir novo aluno;<br>
+> 2- Listar alunos;<br>
+> 3- Calcular média geral.<br>
 
 ```
 1. Struct
