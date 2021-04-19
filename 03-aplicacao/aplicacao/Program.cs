@@ -44,6 +44,22 @@ namespace aplicacao
                         break;
 
                     case "3":
+                        decimal notaTotal = 0;
+                        var qntdAlunos = 0;
+
+                        for(int i=0; i<alunos.Length; i++)
+                        {
+                            if(!string.IsNullOrEmpty(alunos[i].Nome))
+                            {
+                                notaTotal += alunos[i].Nota;
+                                qntdAlunos++;
+                            }
+                        }
+
+                        var mediaGeral = notaTotal/ qntdAlunos;
+                        var conceito = ObterConceito(mediaGeral);
+                      
+                        Console.WriteLine($"Média Geral: {mediaGeral} - Conceito Geral: {conceito}");
 
                         break;    
 
@@ -71,6 +87,34 @@ namespace aplicacao
             string opcaoUsuario = Console.ReadLine();
             Console.WriteLine();
             return opcaoUsuario;
+        }
+
+        private static ConceitoEnum ObterConceito(decimal mediaGeral)
+        {
+            ConceitoEnum conceitoGeral;
+
+            if(mediaGeral <2)
+            {
+                conceitoGeral = ConceitoEnum.E;
+            }
+            else if(mediaGeral < 4)
+            {;
+                conceitoGeral = ConceitoEnum.D;
+            }
+            else if(mediaGeral < 6)
+            {   
+                conceitoGeral = ConceitoEnum.C;
+            }
+            else if(mediaGeral < 8)
+            {
+                conceitoGeral = ConceitoEnum.B;
+            }
+            else
+            {
+                conceitoGeral = ConceitoEnum.A;
+            }
+
+            return conceitoGeral;
         }
     }
 }
