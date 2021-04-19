@@ -37,6 +37,8 @@ namespace aplicacao
                         foreach(var a in alunos)
                         {   
                             if(!string.IsNullOrEmpty(a.Nome))
+                            //a != null não permite por que o aluno é uma struct, sendo assim não pode ser null por não ser um tipo referência.
+                            //!a.Nome.Equals("") gera uma exceção pois a string (nome) vem como null por padrao.
                             {
                             Console.WriteLine($"Aluno: {a.Nome} - Nota: {a.Nota}");
                             }
