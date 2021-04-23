@@ -14,4 +14,4 @@
 - [X] Clear;
 - [X] Switch-case;
 - [X] Parse;
-- [X]ArgumentOutOfRangeException
+- [X] ArgumentOutOfRangeException
