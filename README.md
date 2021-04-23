@@ -9,4 +9,5 @@ Projetos desenvolvidos durante a realização do Bootcamp. 90hrs.
 <br>
 
 - [x] [introduction-dotnet](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/introduction-dotnet)
+- [X] [bank-transfer](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/bank-transfer)
 <br>
