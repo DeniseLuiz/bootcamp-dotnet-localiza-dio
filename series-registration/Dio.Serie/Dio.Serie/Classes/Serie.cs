@@ -14,6 +14,8 @@ namespace Dio.Serie
 
         private int Ano { get; set; }
 
+        public bool Excluido { get; set; }
+
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
             Id = id;
@@ -21,6 +23,7 @@ namespace Dio.Serie
             Titulo = titulo;
             Descricao = descricao;
             Ano = ano;
+            Excluido = false;
         }
 
         public override string ToString()
@@ -30,7 +33,7 @@ namespace Dio.Serie
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
-            //retorno += "Excluido: " + this.Excluido;
+            retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
 
@@ -42,6 +45,11 @@ namespace Dio.Serie
         public int retornaId()
         {
             return Id;
+        }
+
+        public void Exclui()
+        {
+            Excluido = true;
         }
     }
    
