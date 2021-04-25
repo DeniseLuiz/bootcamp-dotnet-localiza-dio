@@ -10,12 +10,15 @@ namespace DIO.bank
         public double Saldo { get; private set; }
         private double Credito { get; set; }
         private string Nome { get; set; }
-        public Conta(TipoConta tipoConta, double saldo, double credito, string nome)
+
+        public double NumeroConta { get; set; }
+        public Conta(TipoConta tipoConta, double numeroDaConta, double saldo, double credito, string nome)
         {
             TipoConta = tipoConta;
             Saldo = saldo;
             Credito = credito;
             Nome = nome;
+            NumeroConta = numeroDaConta;
         }
 
         public bool Sacar(double valorSaque)

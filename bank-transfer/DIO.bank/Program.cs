@@ -116,10 +116,10 @@ namespace DIO.bank
             Console.Write("Digite 1 para Conta Fisica ou 2 para Juridica: ");
             int entradaTipoConta = int.Parse(Console.ReadLine());
 
-            if(entradaTipoConta != 1 || entradaTipoConta != 2)
-            {
-                throw new ArgumentOutOfRangeException();
-            }
+            //if(entradaTipoConta != 1 || entradaTipoConta != 2)
+            //{
+            //    throw new ArgumentOutOfRangeException();
+            //}
 
             Console.Write("Digite o Nome do Cliente: ");
             string entradaNome = Console.ReadLine();
@@ -131,6 +131,7 @@ namespace DIO.bank
             double entradaCredito = double.Parse(Console.ReadLine());
 
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
+                                        numeroDaConta: 12345,
                                         saldo: entradaSaldo,
                                         credito: entradaCredito,
                                         nome: entradaNome);

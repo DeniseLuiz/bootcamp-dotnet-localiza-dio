@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie\\Dio.Serie.csproj": {}
+    "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie\\Dio.Serie.csproj": {
+    "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie\\Dio.Serie.csproj",
+        "projectUniqueName": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie.csproj",
         "projectName": "Dio.Serie",
-        "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie\\Dio.Serie.csproj",
+        "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie.csproj",
         "packagesPath": "C:\\Users\\Denise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\Dio.Serie\\obj\\",
+        "outputPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\series-registration\\Dio.Serie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denise\\AppData\\Roaming\\NuGet\\NuGet.Config",
