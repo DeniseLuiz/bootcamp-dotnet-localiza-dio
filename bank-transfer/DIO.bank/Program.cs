@@ -80,13 +80,28 @@ namespace DIO.bank
         private static void Sacar()
         {
             Console.Clear();
+
             Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite o valor a ser sacado: ");
-            double valorSaque = double.Parse(Console.ReadLine());
+            int[] senha = new int[4];
+            Console.WriteLine("Digite sua senha númerica de 4 dígitos: ");
+            for(int i = 0; i<4; i++)
+            {
+                Console.Write($"Digite o caracter numérico {i + 1}: ");
+                //Tem como limitar o readlie a ler somente um caracter por vez?
+                senha[i] = int.Parse(Console.ReadLine());
+            }
+            
 
-            listContas[indiceConta].Sacar(valorSaque);
+            if (listContas[indiceConta].VerificarSenha(senha))
+            {
+                Console.Write("Digite o valor a ser sacado: ");
+                double valorSaque = double.Parse(Console.ReadLine());
+
+                listContas[indiceConta].Sacar(valorSaque);
+                Console.ReadLine();
+            }
         }
 
         private static void ListarContas()
@@ -120,7 +135,11 @@ namespace DIO.bank
             //{
             //    throw new ArgumentOutOfRangeException();
             //}
-
+            // Implementar numero da conta
+            // Implementar senha e verificação da senha para sacar de determinada conta;
+            //Tentar aplicar esses conceitos usando vetor;
+            // Implementar atualização de senha;
+            
             Console.Write("Digite o Nome do Cliente: ");
             string entradaNome = Console.ReadLine();
 
@@ -130,11 +149,21 @@ namespace DIO.bank
             Console.Write("Digite o crédito: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
+            Console.WriteLine("Digite uma senha númerica (4 dígitos): ");
+            int[] entradaSenha = new int[4];
+            
+            for(int i =  0; i< 4; i++)
+            {
+                Console.Write($"Digite o caracter numérico {i + 1}: ");
+                entradaSenha[i] = int.Parse(Console.ReadLine());
+            }
+
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
-                                        numeroDaConta: 12345,
+                                        //numeroDaConta: 12345,
                                         saldo: entradaSaldo,
                                         credito: entradaCredito,
-                                        nome: entradaNome);
+                                        nome: entradaNome,
+                                        senha: entradaSenha);
             
             listContas.Add(novaConta);
 

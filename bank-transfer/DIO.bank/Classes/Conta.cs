@@ -12,13 +12,39 @@ namespace DIO.bank
         private string Nome { get; set; }
 
         public double NumeroConta { get; set; }
-        public Conta(TipoConta tipoConta, double numeroDaConta, double saldo, double credito, string nome)
+
+        public int[] Senha { get; set; }
+
+        public Conta(TipoConta tipoConta,  double saldo, double credito, string nome, int[] senha)
         {
             TipoConta = tipoConta;
             Saldo = saldo;
             Credito = credito;
             Nome = nome;
-            NumeroConta = numeroDaConta;
+            Senha = senha;
+           //Tem como eu mudar a visibilidade após setar esse valor???
+        }
+
+        public bool VerificarSenha(int[] senha)
+        {
+
+            int verificadorSenha = 0; 
+
+            for(int i = 0; i <4; i++)
+            {
+                if(senha[i] == Senha[i])
+                {
+                    verificadorSenha++;
+                }
+            }
+
+            if(verificadorSenha != 4)
+            {
+                Console.WriteLine($"Senha inválida! Saque não autorizado");
+                return false;
+            }
+
+            return true;
         }
 
         public bool Sacar(double valorSaque)
@@ -54,7 +80,8 @@ namespace DIO.bank
             retorno += $"Tipo Conta: {TipoConta} |";                          
             retorno += $"Nome: {Nome} |";                          
             retorno += $"Saldo: {Saldo} |";                          
-            retorno += $"Credito: {Credito}";
+            retorno += $"Credito: {Credito} |";
+            //retorno += $"Senha: {Senha[0]}{Senha[1]}{Senha[2]}{Senha[3]}";
 
             return retorno;
         }
