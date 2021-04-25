@@ -65,16 +65,30 @@ namespace DIO.bank
             listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
         }
 
+        private static Conta SelecionarConta(string numeroDaConta)
+        {
+            for(int i = 0; i< listContas.Count; i++)
+            {
+                if(listContas[i].NumeroConta == numeroDaConta)
+                {
+                    return listContas[i];
+                }
+
+                Console.WriteLine("Conta não encontrada.");
+                return ListarContas();
+            } 
+        }
         private static void Depositar()
         {
             Console.Clear();
             Console.Write("Digite o número da conta: ");
-            int indiceConta = int.Parse(Console.ReadLine());
+            //int indiceConta = int.Parse(Console.ReadLine());
+            string EntradanumeroDaConta = Console.ReadLine();
 
             Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
 
-            listContas[indiceConta].Depositar(valorDeposito);
+            //listContas[indiceConta].Depositar(valorDeposito);
         }
 
         private static void Sacar()
@@ -159,7 +173,6 @@ namespace DIO.bank
             }
 
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
-                                        //numeroDaConta: 12345,
                                         saldo: entradaSaldo,
                                         credito: entradaCredito,
                                         nome: entradaNome,

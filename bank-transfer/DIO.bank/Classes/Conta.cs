@@ -11,7 +11,7 @@ namespace DIO.bank
         private double Credito { get; set; }
         private string Nome { get; set; }
 
-        public double NumeroConta { get; set; }
+        public string NumeroConta { get; set; }
 
         public int[] Senha { get; set; }
 
@@ -21,8 +21,28 @@ namespace DIO.bank
             Saldo = saldo;
             Credito = credito;
             Nome = nome;
-            Senha = senha;
-           //Tem como eu mudar a visibilidade após setar esse valor???
+            Nome = nome; //Como evitar que o nome digitado seja um espaço vazio?
+            Senha = senha;  //Tem como eu mudar a visibilidade após setar esse valor???
+            NumeroConta = gerarNumeroDaConta();
+
+            Console.Clear();
+            Console.WriteLine($"Conta criada com sucesso! O número da sua conta é {NumeroConta}.");
+            Console.WriteLine("Anote-o para que possa realizar transações mais tarde.");
+            Console.ReadLine();
+        }
+
+        public string gerarNumeroDaConta()
+        {
+            Random random = new Random();
+            string numeroConta = "";
+            string digitoConta = Convert.ToString(random.Next(9));
+
+            for(int i = 0; i<= 4; i++)
+            {
+                numeroConta += $"{random.Next(9)}"; //Como fazer uma máscara para quando o usuário digitar ficar com o tracinho.
+            }
+
+            return $"{numeroConta}-{digitoConta}";
         }
 
         public bool VerificarSenha(int[] senha)
@@ -77,9 +97,10 @@ namespace DIO.bank
         public override string ToString()
         {
             string retorno = "";
-            retorno += $"Tipo Conta: {TipoConta} |";                          
-            retorno += $"Nome: {Nome} |";                          
-            retorno += $"Saldo: {Saldo} |";                          
+            retorno += $"Número da conta: {NumeroConta} |";
+            retorno += $"Tipo Conta: {TipoConta} |"; // Como fazer para imprimir a descrição do enum e não a string junta PessoaFisica
+            retorno += $"Nome: {Nome} |";
+            retorno += $"Saldo: {Saldo} |";
             retorno += $"Credito: {Credito} |";
             //retorno += $"Senha: {Senha[0]}{Senha[1]}{Senha[2]}{Senha[3]}";
 
