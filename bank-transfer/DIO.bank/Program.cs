@@ -65,30 +65,71 @@ namespace DIO.bank
             listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
         }
 
-        private static Conta SelecionarConta(string numeroDaConta)
-        {
-            for(int i = 0; i< listContas.Count; i++)
-            {
-                if(listContas[i].NumeroConta == numeroDaConta)
-                {
-                    return listContas[i];
-                }
+        //private static Conta SelecionarConta(string numeroDaConta)
+        //{
 
-                Console.WriteLine("Conta não encontrada.");
-                return ListarContas();
-            } 
+        //    for (int i = 0; i < listContas.Count; i++)
+        //    {
+
+        //        if (listContas[i].NumeroConta == numeroDaConta)
+        //        {
+        //            return listContas[i];
+        //        }
+
+        //    }
+        //    return listContas;
+        //}
+
+        private static int SelecionarConta(string numeroDaConta, string digito)
+        {
+            Console.WriteLine($"Conta: {numeroDaConta} - digito: {digito}");
+            int indice = -1;
+
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                if ((listContas[i].NumeroConta == numeroDaConta) && (listContas[i].DigitoConta == digito))
+                {
+                    return i;
+                }
+                else
+                {
+                    return indice;
+                }
+            }
         }
         private static void Depositar()
         {
+            //int indiceConta = int.Parse(Console.ReadLine());
+            //listContas[indiceConta].Depositar(valorDeposito);
+            
             Console.Clear();
             Console.Write("Digite o número da conta: ");
-            //int indiceConta = int.Parse(Console.ReadLine());
             string EntradanumeroDaConta = Console.ReadLine();
+
+            Console.WriteLine($"Conta: {EntradanumeroDaConta}");
+
+            Console.Write("Digite o dígito da conta: ");
+            string EntradaDigitoConta = Console.ReadLine();
+
+            Console.WriteLine($"Digito: {EntradaDigitoConta}");
+
+            int indiceDaConta = SelecionarConta(EntradanumeroDaConta, EntradaDigitoConta);
+
+            Console.WriteLine($"IndiceDaConta: {indiceDaConta}");
+            
+
+            if(indiceDaConta == -1)
+            {
+                Console.WriteLine("Conta não localizada! Tente novamente.");
+                Console.ReadLine();
+                return;
+
+            }
 
             Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
 
-            //listContas[indiceConta].Depositar(valorDeposito);
+            listContas[indiceDaConta].Depositar(valorDeposito);
         }
 
         private static void Sacar()

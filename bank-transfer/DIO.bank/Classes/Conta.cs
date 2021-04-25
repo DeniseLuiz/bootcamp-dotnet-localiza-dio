@@ -10,9 +10,8 @@ namespace DIO.bank
         public double Saldo { get; private set; }
         private double Credito { get; set; }
         private string Nome { get; set; }
-
         public string NumeroConta { get; set; }
-
+        public string DigitoConta { get; set; }
         public int[] Senha { get; set; }
 
         public Conta(TipoConta tipoConta,  double saldo, double credito, string nome, int[] senha)
@@ -34,14 +33,14 @@ namespace DIO.bank
         {
             Random random = new Random();
             string numeroConta = "";
-            string digitoConta = Convert.ToString(random.Next(9));
+            DigitoConta = Convert.ToString(random.Next(9));
 
             for(int i = 0; i<= 4; i++)
             {
                 numeroConta += $"{random.Next(9)}"; //Como fazer uma máscara para quando o usuário digitar ficar com o tracinho.
             }
 
-            return $"{numeroConta}-{digitoConta}";
+            return $"{numeroConta}-{DigitoConta}";
         }
 
         public bool VerificarSenha(int[] senha)
