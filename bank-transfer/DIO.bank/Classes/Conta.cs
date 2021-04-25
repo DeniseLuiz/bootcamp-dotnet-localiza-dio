@@ -20,7 +20,6 @@ namespace DIO.bank
             TipoConta = tipoConta;
             Saldo = saldo;
             Credito = credito;
-            Nome = nome;
             Nome = nome; //Como evitar que o nome digitado seja um espaço vazio?
             Senha = senha;  //Tem como eu mudar a visibilidade após setar esse valor???
             NumeroConta = gerarNumeroDaConta();
