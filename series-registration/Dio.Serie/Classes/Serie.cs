@@ -14,7 +14,7 @@ namespace Dio.Serie
 
         private int Ano { get; set; }
 
-        public bool Excluido { get; set; }
+        private bool Excluido { get; set; }
 
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {

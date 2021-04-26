@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Dio.Serie.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Dio.Serie.Interfaces;
 
 namespace Dio.Serie.Classes
 {
@@ -15,7 +15,7 @@ namespace Dio.Serie.Classes
 
         public void Exclui(int id)
         {
-            //listSerie.RemoveAt(id);//Reclassifica os próximos indíces do vetor
+            //listSerie.RemoveAt(id); // a sequência dos outros vetores. Só utilizar qnd estiver usando banco de dados
             listSerie[id].Exclui();
         }
 
@@ -31,7 +31,7 @@ namespace Dio.Serie.Classes
 
         public int PromixoId()
         {
-            return listSerie.Count;
+            return listSerie.Count ;
         }
 
         public Serie RetornaPorId(int id)

@@ -190,9 +190,7 @@ namespace DIO.bank
             //{
             //    throw new ArgumentOutOfRangeException();
             //}
-            // Implementar numero da conta
-            // Implementar senha e verificação da senha para sacar de determinada conta;
-            //Tentar aplicar esses conceitos usando vetor;
+            
             // Implementar atualização de senha;
             
             Console.Write("Digite o Nome do Cliente: ");
@@ -245,7 +243,5 @@ namespace DIO.bank
             Console.WriteLine();
             return opcaoUsuario;
         }
-
-
     }
 }
