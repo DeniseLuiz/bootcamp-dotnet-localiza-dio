@@ -2,14 +2,14 @@
 
 > .NET Core 3.1
 
-> O programa simula funções bancárias. No ínicio são apresetados as seguintes opções. 
-> 1-Listar contas";
-> 2-Inserir nova conta;
-> 3-Transferir;
-> 4-Sacar;
-> 5-Depositar;
-> 6-Limpar tela;
-> X- Sair;
+> O programa simula funções bancárias. No ínicio são apresetados as seguintes opções. <br>
+> 1-Listar contas;<br>
+> 2-Inserir nova conta;<br>
+> 3-Transferir;<br>
+> 4-Sacar;<br>
+> 5-Depositar;<br>
+> 6-Limpar tela;<br>
+> X- Sair;<br>
 
 ## 💻 Conceitos Aprendidos:
 <br>
@@ -39,7 +39,7 @@ ________________________________________________________________________________
 - [x] Gerador do número de conta:
   > <p style="text-align: justify">Ao escolher a função inserir nova conta, e após digitar os dados referidos acima, o programa gera um número de conta no seguinte formato:</p><br>
   
-  > <p style="text-align: justify">xxxxx-x</p><br>
+  > <p style="text-align: justify">'xxxxx-x'</p><br>
  
   > <p style="text-align: justify">O número de conta aparece para o usuário após a criação, e o mesmo é orientado a guardar esse número pois o mesmo será necessário para novas transações. Caso o usuário deseja, o número da conta aparece disponível na opção 1 - "Listar Contas".</p><br>
   
