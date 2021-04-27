@@ -3,13 +3,13 @@
 > .NET Core 3.1
 
 > O programa simula uma base de dados de cadastro de séries, com as seguintes opções de implementações: <br> 
-> 1-Listar séries;
-> 2-Inserir nova série;
-> 3-Atualizar série;
-> 4-Excluir série;
-> 5-Visualizar série;
-> 6-Limpar tela;
-> X- Sair;
+> 1-Listar séries;<br> 
+> 2-Inserir nova série;<br> 
+> 3-Atualizar série;<br> 
+> 4-Excluir série;<br> 
+> 5-Visualizar série;<br> 
+> 6-Limpar tela;<br> 
+> X- Sair;<br> 
 
 
 ## 💻 Conceitos Aprendidos:
