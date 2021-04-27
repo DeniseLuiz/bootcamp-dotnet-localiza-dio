@@ -1,0 +1,13 @@
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.exe
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.deps.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.runtimeconfig.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.runtimeconfig.dev.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\bin\Debug\netcoreapp3.1\Dio.Serie.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\series-registration\Dio.Serie\obj\Debug\netcoreapp3.1\Dio.Serie.genruntimeconfig.cache

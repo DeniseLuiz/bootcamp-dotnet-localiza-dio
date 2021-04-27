@@ -16,6 +16,6 @@ namespace Dio.Serie.Interfaces
 
         void Atualizar(int id, T entidade);
 
-        int PromixoId();
+        int ProximoId();
     }
 }

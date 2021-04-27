@@ -29,9 +29,9 @@ namespace Dio.Serie.Classes
             return listSerie;
         }
 
-        public int PromixoId()
+        public int ProximoId()
         {
-            return listSerie.Count ;
+            return listSerie.Count;
         }
 
         public Serie RetornaPorId(int id)
