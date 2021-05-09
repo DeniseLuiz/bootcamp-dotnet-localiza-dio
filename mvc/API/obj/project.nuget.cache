@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rVjbUTmUbs9pPM1AOVGq1nW0z+rBBDiIzJtYfj/rM1wd5rNBFVQzy8428EKaGomQnorh7PdACRhLwaIHiijorw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Denise\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
