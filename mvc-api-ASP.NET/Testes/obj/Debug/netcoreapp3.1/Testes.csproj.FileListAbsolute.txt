@@ -242,3 +242,4 @@ C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc-api-ASP.NET\Te
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc-api-ASP.NET\Testes\obj\Debug\netcoreapp3.1\Testes.dll
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc-api-ASP.NET\Testes\obj\Debug\netcoreapp3.1\Testes.pdb
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc-api-ASP.NET\Testes\obj\Debug\netcoreapp3.1\Testes.genruntimeconfig.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc-api-ASP.NET\Testes\bin\Debug\netcoreapp3.1\API.StaticWebAssets.xml

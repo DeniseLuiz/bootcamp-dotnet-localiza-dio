@@ -5,6 +5,7 @@ using mvc.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -16,6 +17,7 @@ namespace Testes
         private readonly Mock<Context> _mockContext;
         private readonly Categoria _categoria;
 
+        
         public CategoriasControllerTest()
         {
             _mockSet = new Mock<DbSet<Categoria>>();
@@ -26,7 +28,10 @@ namespace Testes
 
             _mockContext.Setup(m => m.Categorias.FindAsync(1)).ReturnsAsync(_categoria);
 
+            _mockContext.Setup(m => m.SetModified(_categoria));
 
+            _mockContext.Setup(m => m.SaveChangesAsync(It.IsAny<CancellationToken>()))
+                .ReturnsAsync(1);
         }
 
         [Fact]
@@ -36,8 +41,38 @@ namespace Testes
             await service.GetCategoria(1);
 
             _mockSet.Verify(m => m.FindAsync(1), Times.Once());
-            
         }
 
+        [Fact]
+        public async Task Put_Categoria()
+        {
+            var service = new CategoriaController(_mockContext.Object);
+            await service.PutCategoria(1, _categoria);
+
+            _mockContext.Verify(mocks => mocks.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once());
+        }
+
+        [Fact]
+        public async Task Post_Categoria()
+        {
+            var service = new CategoriaController(_mockContext.Object);
+            await service.PostCategoria(_categoria);
+
+            _mockContext.Verify(m => m.Add(_categoria), Times.Once);
+            _mockContext.Verify(m => m.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once());
+        }
+
+        [Fact]
+        public async Task Delete_Categoria() 
+        {
+            var service = new CategoriaController(_mockContext.Object);
+            await service.DeleteCategoria(1);
+
+            _mockSet.Verify(m => m.FindAsync(1), Times.Once());
+            _mockSet.Verify(m => m.Remove(_categoria), Times.Once);
+
+            _mockContext.Verify(m => m.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once());
+        }
     }
 }
+
