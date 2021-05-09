@@ -168,3 +168,13 @@ C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\bin\Debug\
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Create.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Delete.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Details.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Edit.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Index.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\mvc\mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
