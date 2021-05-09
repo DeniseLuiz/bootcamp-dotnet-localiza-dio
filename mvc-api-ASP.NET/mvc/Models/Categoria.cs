@@ -14,7 +14,7 @@ namespace mvc.Models
         [Required(ErrorMessage = "Campo descrição é obrigatório")]
         public string Descricao { get; set; }
         
-        public List<Produto> Produtos { get; set; }
+        //public List<Produto> Produtos { get; set; }
 
     }
 }

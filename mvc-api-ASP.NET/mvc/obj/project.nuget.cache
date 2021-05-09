@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2UNzRHOn/r6VpFSQH5eBkHt5lFKYdk7v0ZBdXtJmGdrnfo1DeejdQ0iJPre7AlMWgroPqHN/5HHMCef0Ly5xcg==",
+  "dgSpecHash": "lbVM+VgTk0uAbhEKZBxQA81GVC1bxXXt0VTO7e0M7qZ+mGIcfaENOh/07s/2NPy+DCh9/+7GohfyPfQEeK3NOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\mvc\\mvc.csproj",
+  "projectFilePath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\mvc\\mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Denise\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Denise\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

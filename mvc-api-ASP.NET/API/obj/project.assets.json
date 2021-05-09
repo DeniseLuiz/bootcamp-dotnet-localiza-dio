@@ -9038,11 +9038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Denise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\API\\obj\\",
+      "outputPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Denise\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9059,8 +9059,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\mvc\\mvc.csproj": {
-              "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc\\mvc\\mvc.csproj"
+            "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\mvc\\mvc.csproj": {
+              "projectPath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\mvc-api-ASP.NET\\mvc\\mvc.csproj"
             }
           }
         }
