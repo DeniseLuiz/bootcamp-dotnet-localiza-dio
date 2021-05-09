@@ -28,7 +28,10 @@ namespace API
         {
             services.AddControllers();
             services.AddDbContext<Context>();
-            services.AddSwaggerGen(c => { c.SwaggerDoc("V1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CursoAPI", Version = "v1" }); });
+            services.AddSwaggerGen(c => { 
+                c.SwaggerDoc("V1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CursoAPI", Version = "v1" });
+                c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,8 +39,10 @@ namespace API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); //Para visualização do erro 
             }
+
+            app.UseDeveloperExceptionPage();
 
             app.UseSwagger();
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso API"); });

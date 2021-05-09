@@ -11,48 +11,48 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriasController : ControllerBase
+    public class ProdutoController : ControllerBase
     {
         private readonly Context _context;
 
-        public CategoriasController(Context context)
+        public ProdutoController(Context context)
         {
             _context = context;
         }
 
-        // GET: api/Categorias
+        // GET: api/Produtos
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Categoria>>> GetCategorias()
+        public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos()
         {
-            return await _context.Categorias.ToListAsync();
+            return await _context.Produtos.Include("Categoria").ToListAsync();
         }
 
-        // GET: api/Categorias/5
+        // GET: api/Produtos/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Categoria>> GetCategoria(int id)
+        public async Task<ActionResult<Produto>> GetProduto(int id)
         {
-            var categoria = await _context.Categorias.FindAsync(id);
+            var produto = await _context.Produtos.Include("Categoria").FirstOrDefaultAsync(x => x.Id == id);
 
-            if (categoria == null)
+            if (produto == null)
             {
                 return NotFound();
             }
 
-            return categoria;
+            return produto;
         }
 
-        // PUT: api/Categorias/5
+        // PUT: api/Produtos/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategoria(int id, Categoria categoria)
+        public async Task<IActionResult> PutProduto(int id, Produto produto)
         {
-            if (id != categoria.Id)
+            if (id != produto.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(categoria).State = EntityState.Modified;
+            _context.Entry(produto).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CategoriaExists(id))
+                if (!ProdutoExists(id))
                 {
                     return NotFound();
                 }
@@ -73,37 +73,37 @@ namespace API.Controllers
             return NoContent();
         }
 
-        // POST: api/Categorias
+        // POST: api/Produtos
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
+        public async Task<ActionResult<Produto>> PostProduto(Produto produto)
         {
-            _context.Categorias.Add(categoria);
+            _context.Produtos.Add(produto);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCategoria", new { id = categoria.Id }, categoria);
+            return CreatedAtAction("GetProduto", new { id = produto.Id }, produto);
         }
 
-        // DELETE: api/Categorias/5
+        // DELETE: api/Produtos/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Categoria>> DeleteCategoria(int id)
+        public async Task<ActionResult<Produto>> DeleteProduto(int id)
         {
-            var categoria = await _context.Categorias.FindAsync(id);
-            if (categoria == null)
+            var produto = await _context.Produtos.FindAsync(id);
+            if (produto == null)
             {
                 return NotFound();
             }
 
-            _context.Categorias.Remove(categoria);
+            _context.Produtos.Remove(produto);
             await _context.SaveChangesAsync();
 
-            return categoria;
+            return produto;
         }
 
-        private bool CategoriaExists(int id)
+        private bool ProdutoExists(int id)
         {
-            return _context.Categorias.Any(e => e.Id == id);
+            return _context.Produtos.Any(e => e.Id == id);
         }
     }
 }
