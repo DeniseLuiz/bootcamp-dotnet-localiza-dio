@@ -34,19 +34,20 @@ ________________________________________________________________________________
         }
   ```
   <br>
-  - Service do Startup:
+  - Service do Startup:<br>
+  - 
   ```
   ConfigureServices.AddDbContext<Context>();
   ```
   <br>
-  - Após asconfigurações acima, realizar os seguintes comandos no controller para adicionar o migrations e BD:
+  - Após asconfigurações acima, realizar os seguintes comandos no controller para adicionar o migrations e BD:<br>
   ````
   Add-Migrations InitialCreate
 
   ````
+  <br>
   ````
   Update-Database
   ````
   <br>
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  <br>
   # Aplicação ASP.NET API
