@@ -35,17 +35,22 @@ ________________________________________________________________________________
   ```
   <br>
   - Service do Startup:<br>
-  - 
+  
   ```
   ConfigureServices.AddDbContext<Context>();
   ```
+  
   <br>
   - Após asconfigurações acima, realizar os seguintes comandos no controller para adicionar o migrations e BD:<br>
+  * Migration <br>
+  
   ````
   Add-Migrations InitialCreate
 
   ````
   <br>
+  * Atualização DB<br>
+  
   ````
   Update-Database
   ````
