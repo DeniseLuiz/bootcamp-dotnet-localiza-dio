@@ -1,0 +1,14 @@
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Service.deps.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Service.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Service.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Domain.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Repository.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Repository.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\bin\Debug\netcoreapp3.1\Vaquinha.Domain.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.csproj.CopyComplete
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Service\obj\Debug\netcoreapp3.1\Vaquinha.Service.pdb

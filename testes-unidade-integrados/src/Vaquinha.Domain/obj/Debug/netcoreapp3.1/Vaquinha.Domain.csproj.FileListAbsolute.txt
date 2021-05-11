@@ -1,0 +1,9 @@
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\bin\Debug\netcoreapp3.1\Vaquinha.Domain.deps.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\bin\Debug\netcoreapp3.1\Vaquinha.Domain.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\bin\Debug\netcoreapp3.1\Vaquinha.Domain.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Domain\obj\Debug\netcoreapp3.1\Vaquinha.Domain.pdb

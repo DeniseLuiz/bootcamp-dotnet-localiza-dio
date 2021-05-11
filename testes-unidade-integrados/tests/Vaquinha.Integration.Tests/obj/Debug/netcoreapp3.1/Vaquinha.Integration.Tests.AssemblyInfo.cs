@@ -11,6 +11,16 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Vaquinha.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-inte" +
+    "grados\\src\\Vaquinha.Domain", "Vaquinha.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Vaquinha.MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-inte" +
+    "grados\\src\\Vaquinha.MVC", "Vaquinha.MVC.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Vaquinha.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-inte" +
+    "grados\\src\\Vaquinha.Repository", "Vaquinha.Repository.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Vaquinha.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-inte" +
+    "grados\\src\\Vaquinha.Service", "Vaquinha.Service.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Vaquinha.Tests.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-inte" +
+    "grados\\tests\\Vaquinha.Tests.Common", "Vaquinha.Tests.Common.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vaquinha.Integration.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Repository.deps.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Repository.runtimeconfig.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Repository.runtimeconfig.dev.json
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Repository.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Repository.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Domain.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\bin\Debug\netcoreapp3.1\Vaquinha.Domain.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.csprojAssemblyReference.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.AssemblyInfoInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.AssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.csproj.CopyComplete
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.pdb
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\testes-unidade-integrados\src\Vaquinha.Repository\obj\Debug\netcoreapp3.1\Vaquinha.Repository.genruntimeconfig.cache

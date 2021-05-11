@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ih+u5jFmyqg35C+1OEk52rtiCCOYW0uqqHzTwQGDJLqANnLGMcvBKTFmoWGHBd2QN+ysIXLt3E3NYx0NiG/sYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\testes-unidade-integrados\\src\\Vaquinha.Domain\\Vaquinha.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Denise\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\restsharp\\106.10.1\\restsharp.106.10.1.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
