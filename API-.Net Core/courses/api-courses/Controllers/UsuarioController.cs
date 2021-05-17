@@ -1,6 +1,7 @@
 ﻿using api_courses.Models.Usuarios;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,15 @@ namespace api_courses.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="loginViewModelInput"></param>
+        /// <returns></returns>
+        /// 
+        [SwaggerResponse(statusCode: 200, description: "Sucesso ao autenticar.", Type = typeof(LoginViewModelInput))]
+        [SwaggerResponse(statusCode: 400, description: "Campos obrigatórios.", Type = typeof(ValidarCampoViewModelOutput))]
+        [SwaggerResponse(statusCode: 500, description: "Erro interno. Contate a equipe responsável.", Type = typeof(ErroGenericoViewModel) )]
         [HttpPost]
         [Route("logar")]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
@@ -21,9 +31,9 @@ namespace api_courses.Controllers
 
         [HttpPost]
         [Route("registrar")]
-        public IActionResult Registrar(LoginViewModelInput loginViewModelInput)
+        public IActionResult Registrar(RegistroViewModelInput regitroViewModelInput)
         {
-            return Created("", loginViewModelInput);
+            return Created("", regitroViewModelInput);
         }
     }
 }

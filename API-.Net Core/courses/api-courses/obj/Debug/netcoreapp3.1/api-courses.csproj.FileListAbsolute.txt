@@ -18,3 +18,11 @@ C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\cour
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\obj\Debug\netcoreapp3.1\api-courses.dll
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\obj\Debug\netcoreapp3.1\api-courses.pdb
 C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\obj\Debug\netcoreapp3.1\api-courses.genruntimeconfig.cache
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\api-courses.xml
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\obj\Debug\netcoreapp3.1\api-courses.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\obj\Debug\netcoreapp3.1\api-courses.csproj.CopyComplete
+C:\Users\Denise\Documents\GitHub\bootcamp-dotnet-localiza-dio\API-.Net Core\courses\api-courses\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll

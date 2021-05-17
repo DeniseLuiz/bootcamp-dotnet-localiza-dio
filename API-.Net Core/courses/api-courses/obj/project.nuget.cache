@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "VlRvr8HLQcx8P2S0ibxZqnN/3zB9zwcld5WDLoMjoz3ogv6pOrJZebHEY5V/o66C/WxRKSRItmWJmNTAYjvl4g==",
+  "dgSpecHash": "RC4cefFq9j2gHn6z5M2D6Ml27X65ugg5yP/9VNaiG5TU/h5iZoCs7JgEEIPStZ3j9JILAQMTEJfhYhc8cvxy9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Denise\\Documents\\GitHub\\bootcamp-dotnet-localiza-dio\\API-.Net Core\\courses\\api-courses\\api-courses.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Denise\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.1.4\\swashbuckle.aspnetcore.annotations.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\Denise\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
   "logs": []
 }
