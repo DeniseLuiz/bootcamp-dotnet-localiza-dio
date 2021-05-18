@@ -1,4 +1,5 @@
-﻿using api_courses.Models.Usuarios;
+﻿using api_courses.Filters;
+using api_courses.Models.Usuarios;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
@@ -24,12 +25,9 @@ namespace api_courses.Controllers
         [SwaggerResponse(statusCode: 500, description: "Erro interno. Contate a equipe responsável.", Type = typeof(ErroGenericoViewModel) )]
         [HttpPost]
         [Route("logar")]
+        [ValidacaoModelStateCustomizado]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(new ValidarCampoViewModelOutput(ModelState.SelectMany(sm => sm.Value.Errors).Select(s => s.ErrorMessage)));
-            }
             return Ok(loginViewModelInput);
         }
 
