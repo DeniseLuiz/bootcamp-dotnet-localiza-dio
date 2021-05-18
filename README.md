@@ -14,4 +14,5 @@ Projetos desenvolvidos durante a realização do Bootcamp. 90hrs.
 - [x] [mvc-api-ASP.NET](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/mvc-api-ASP.NET)
 - [x] [series-registration](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/series-registration)
 - [X] [testes-unidade-integrados](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/testes-unidade-integrados) 
+- [x] [API-.Net Core](https://github.com/DeniseLuiz/bootcamp-dotnet-localiza-dio/tree/main/API-.Net%20Core/courses)
 <br>
